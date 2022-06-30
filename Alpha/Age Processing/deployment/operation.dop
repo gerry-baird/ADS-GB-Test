@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Age Processing">
+  <name>Age-Processing</name>
+  <uuid>e31b19cf-0019-4f73-94a1-5496d648cd0d</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#e59a1bf5-99d6-4022-9559-d00a193fa90c"/>
+  <targetRuleProject href="../../Age%20Processing#ad03d460-68cb-448c-8c2d-208283cbe5d9"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

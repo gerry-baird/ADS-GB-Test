@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="function" usingRuleflow="true" ruleflowName="mainflow" targetRuleProjectName="Alpha Task Model">
+  <name>Main Function</name>
+  <uuid>34e4e8c5-50dc-4557-aee5-d367fbfc25d3</uuid>
+  <description><![CDATA[]]></description>
+  <referencedVariables variableName="name" variableSetName="parameters">
+    <variableSet href="../rules/parameters.var#e0b1a005-b84e-4aeb-896a-58d17c095d54"/>
+  </referencedVariables>
+  <referencedVariables variableName="age" variableSetName="parameters">
+    <variableSet href="../rules/parameters.var#e0b1a005-b84e-4aeb-896a-58d17c095d54"/>
+  </referencedVariables>
+  <referencedVariables variableName="message" variableSetName="parameters" direction="OUT">
+    <variableSet href="../rules/parameters.var#e0b1a005-b84e-4aeb-896a-58d17c095d54"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mainflow.rfl#819588db-3750-43e7-820b-7e9c6a17df3e"/>
+  <targetRuleProject href="../../Alpha%20Task%20Model#fefe9e1d-2043-4af8-9ced-5e527e7d4b0a"/>
+  <tags key="operationDescription">
+    <value><![CDATA[]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[false]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

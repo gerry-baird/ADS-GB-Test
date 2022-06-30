@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Under 5</name>
+  <uuid>69df24d4-068d-470f-9ef8-2050c3198ff5</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	'the age' is less than 5 
+then
+	set 'the message' to  "You are very young " + 'the name' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
