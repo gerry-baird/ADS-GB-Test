@@ -28,5 +28,18 @@
             <requiredInput href="#node_0"/>
         </informationRequirement>
     </decision>
+    <decision id="node_2" name="x factor">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Long" collection="false" name="age"/>
+                <output bomType="java.lang.Long" collection="false" name="x factor"/>
+                <rule defaultRule="true" href="node_2/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_2_ii" name="x factor" typeRef="java.lang.Long"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+    </decision>
 </definitions></definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>
