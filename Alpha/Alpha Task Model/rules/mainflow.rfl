@@ -17,7 +17,7 @@
             <FunctionTask Identifier="task_3">
                 <Invocation FunctionIdentifier="cp4admin.gb_test.alpha.ageprocessing.Age_Processing">
                     <InputBindings>
-                        <Binding Language="bal" Name="age"/>
+                        <Binding Language="bal" Name="age"><![CDATA['the age' ]]></Binding>
                     </InputBindings>
                     <OutputBindings>
                         <Binding Language="bal" Name="age"/>

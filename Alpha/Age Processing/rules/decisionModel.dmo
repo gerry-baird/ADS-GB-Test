@@ -15,15 +15,15 @@
         </extensionElements>
         <variable id="node_0_ii" name="age" typeRef="java.lang.Long"/>
     </inputData>
-    <decision id="node_1" name="Processed Age">
+    <decision id="node_1" name="result">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Long" collection="false" name="age"/>
-                <output bomType="java.lang.Long" collection="false" name="Processed Age"/>
+                <output bomType="java.lang.Long" collection="false" name="result"/>
                 <rule defaultRule="true" href="node_1/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="Processed Age" typeRef="java.lang.Long"/>
+        <variable id="node_1_ii" name="result" typeRef="java.lang.Long"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>
